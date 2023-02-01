@@ -4,8 +4,6 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 // Change code below this line
 
-console.log(galleryItems);
-
 const galleryItemArr = makeGalleryItem(galleryItems);
 const galleryParrentEL = document.querySelector('.gallery');
 
